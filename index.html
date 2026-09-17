@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Medha Servo GET preparation website with technical subjects, MCQs, formulas, railway electronics, EV basics and quick revision.">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <title>Medha Servo GET Preparation</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            🚆 Medha GET
+
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#subjects">
+                Subjects
+            </a>
+
+            <a href="#study">
+                Study
+            </a>
+
+            <a href="#revision">
+                Revision
+            </a>
+
+            <a href="#quiz">
+                MCQs
+            </a>
+
+            <a href="#resources">
+                Resources
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HOME / HERO
+    ====================================================== -->
+
+    <section id="home"
+             class="hero">
+
+
+        <div class="hero-content">
+
+
+            <p class="tag">
+
+                GRADUATE ENGINEER TRAINEE
+
+            </p>
+
+
+            <h1>
+
+                Medha Servo GET
+
+                <span>
+                    Preparation
+                </span>
+
+            </h1>
+
+
+            <p class="hero-text">
+
+                Simple and focused preparation with
+                technical basics, important questions,
+                formulas, railway electronics, EV basics
+                and quick revision.
+
+            </p>
+
+
+            <button
+                onclick="startRevision()">
+
+                🚀 Start Revision
+
+            </button>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         QUICK STATISTICS
+    ====================================================== -->
+
+    <section class="stats">
+
+
+        <div class="stat-card">
+
+            <h2>
+                10
+            </h2>
+
+            <p>
+                Subjects
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <h2>
+                200+
+            </h2>
+
+            <p>
+                MCQs
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <h2>
+                100+
+            </h2>
+
+            <p>
+                Important Topics
+            </p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <h2>
+                30
+            </h2>
+
+            <p>
+                Must Remember
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SUBJECTS
+    ====================================================== -->
+
+    <section id="subjects"
+             class="section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                CORE PREPARATION
+            </p>
+
+
+            <h2>
+                📚 Subjects
+            </h2>
+
+
+            <span>
+
+                Select a subject to start revision
+
+            </span>
+
+
+        </div>
+
+
+
+        <div class="subject-grid">
+
+
+
+            <!-- =================================================
+                 SUBJECT 1
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Electrical')">
+
+
+                <div class="subject-icon">
+                    ⚡
+                </div>
+
+
+                <h3>
+                    Electrical & Network Theory
+                </h3>
+
+
+                <p>
+
+                    Voltage • Current • Ohm's Law •
+                    KCL • KVL • Thevenin • Norton
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 2
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Analog')">
+
+
+                <div class="subject-icon">
+                    🔌
+                </div>
+
+
+                <h3>
+                    Analog Electronics
+                </h3>
+
+
+                <p>
+
+                    Semiconductor • Diode • Zener •
+                    BJT • MOSFET • Op-Amp
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 3
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Digital')">
+
+
+                <div class="subject-icon">
+                    💻
+                </div>
+
+
+                <h3>
+                    Digital Electronics
+                </h3>
+
+
+                <p>
+
+                    Logic Gates • Boolean Algebra •
+                    Flip-Flops • Counters • MUX
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 4
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Microcontrollers')">
+
+
+                <div class="subject-icon">
+                    🤖
+                </div>
+
+
+                <h3>
+                    Microprocessors & Microcontrollers
+                </h3>
+
+
+                <p>
+
+                    ADC • DAC • UART • SPI •
+                    I²C • PWM • Embedded Systems
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 5
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Embedded C')">
+
+
+                <div class="subject-icon">
+                    🧑‍💻
+                </div>
+
+
+                <h3>
+                    C / Embedded C
+                </h3>
+
+
+                <p>
+
+                    Variables • Arrays • Pointers •
+                    Structures • Functions • Bitwise
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 6
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Control Systems')">
+
+
+                <div class="subject-icon">
+                    🎛️
+                </div>
+
+
+                <h3>
+                    Control Systems
+                </h3>
+
+
+                <p>
+
+                    Feedback • Transfer Function •
+                    PID • Stability • Bode Plot
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 7
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Power Electronics')">
+
+
+                <div class="subject-icon">
+                    ⚙️
+                </div>
+
+
+                <h3>
+                    Power Electronics
+                </h3>
+
+
+                <p>
+
+                    SCR • TRIAC • DIAC • MOSFET •
+                    IGBT • Rectifier • Inverter
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 8
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Instrumentation')">
+
+
+                <div class="subject-icon">
+                    📏
+                </div>
+
+
+                <h3>
+                    Sensors & Instrumentation
+                </h3>
+
+
+                <p>
+
+                    RTD • Thermocouple • LVDT •
+                    Strain Gauge • LDR • Measurement
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 9
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Communication')">
+
+
+                <div class="subject-icon">
+                    📡
+                </div>
+
+
+                <h3>
+                    Signals & Communication
+                </h3>
+
+
+                <p>
+
+                    Signals • Sampling • AM • FM •
+                    PM • Noise • OFDM
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUBJECT 10
+            ================================================== -->
+
+            <div class="subject-card"
+                 onclick="openSubject('Aptitude')">
+
+
+                <div class="subject-icon">
+                    🧮
+                </div>
+
+
+                <h3>
+                    Aptitude & Reasoning
+                </h3>
+
+
+                <p>
+
+                    Percentage • Average • Ratio •
+                    Speed • Time • Probability
+
+                </p>
+
+
+                <span class="card-button">
+                    Study →
+                </span>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         STUDY MATERIAL
+    ====================================================== -->
+
+    <section id="study"
+             class="study-section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                LEARN THE BASICS
+            </p>
+
+
+            <h2>
+                📖 Study Material
+            </h2>
+
+
+            <span id="studySubtitle">
+
+                Select a subject above to view
+                its study material.
+
+            </span>
+
+
+        </div>
+
+
+
+        <div id="topicContainer"
+             class="topic-container">
+
+
+            <div class="empty-study">
+
+
+                <div class="empty-icon">
+                    📚
+                </div>
+
+
+                <h3>
+                    Select a Subject
+                </h3>
+
+
+                <p>
+
+                    Choose any subject above to
+                    start your revision.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         RAILWAY ELECTRONICS STUDY
+    ====================================================== -->
+
+    <section id="railway"
+             class="study-section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                MEDHA SERVO FOCUSED
+            </p>
+
+
+            <h2>
+                🚆 Railway Electronics
+            </h2>
+
+
+            <span>
+
+                Traction • TCMS • Signalling • Braking
+                • Railway Communication
+
+            </span>
+
+
+        </div>
+
+
+
+        <div id="railwayContainer"
+             class="topic-container">
+
+
+            <div class="empty-study">
+
+
+                <div class="empty-icon">
+                    🚆
+                </div>
+
+
+                <h3>
+                    Railway Electronics
+                </h3>
+
+
+                <p>
+
+                    Railway-focused study material
+                    will be available here.
+
+                </p>
+
+
+                <button
+                    class="card-button"
+                    onclick="showRailwayBasics()">
+
+                    Start Railway Revision →
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EV BASICS
+    ====================================================== -->
+
+    <section id="ev"
+             class="study-section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                ADDITIONAL TECHNICAL PREPARATION
+            </p>
+
+
+            <h2>
+                🔋 EV Basics
+            </h2>
+
+
+            <span>
+
+                Battery • BMS • Motor • Inverter •
+                Regenerative Braking
+
+            </span>
+
+
+        </div>
+
+
+
+        <div id="evContainer"
+             class="topic-container">
+
+
+            <div class="empty-study">
+
+
+                <div class="empty-icon">
+                    🔋
+                </div>
+
+
+                <h3>
+                    EV Basics
+                </h3>
+
+
+                <p>
+
+                    Important electric vehicle
+                    concepts will be available here.
+
+                </p>
+
+
+                <button
+                    class="card-button"
+                    onclick="showEVBasics()">
+
+                    Start EV Revision →
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         QUICK REVISION
+    ====================================================== -->
+
+    <section id="revision"
+             class="section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                LAST-MINUTE PREPARATION
+            </p>
+
+
+            <h2>
+                🔥 Quick Revision
+            </h2>
+
+
+            <span>
+
+                Important information for fast revision
+
+            </span>
+
+
+        </div>
+
+
+
+        <div class="revision-grid">
+
+
+
+            <!-- QUICK REVISION -->
+
+            <div class="revision-card">
+
+
+                <div class="revision-icon">
+                    📌
+                </div>
+
+
+                <h3>
+                    Quick Revision
+                </h3>
+
+
+                <p>
+
+                    Important concepts and facts
+                    for fast revision.
+
+                </p>
+
+
+                <button
+                    onclick="showQuickRevision()">
+
+                    Open →
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- FORMULA SHEET -->
+
+            <div class="revision-card">
+
+
+                <div class="revision-icon">
+                    📐
+                </div>
+
+
+                <h3>
+                    Formula Sheet
+                </h3>
+
+
+                <p>
+
+                    Important formulas from
+                    technical subjects.
+
+                </p>
+
+
+                <button
+                    onclick="showFormulaSheet()">
+
+                    Open →
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- MUST REMEMBER -->
+
+            <div class="revision-card">
+
+
+                <div class="revision-icon">
+                    🔥
+                </div>
+
+
+                <h3>
+                    30 Must Remember
+                </h3>
+
+
+                <p>
+
+                    Important facts to remember
+                    before the examination.
+
+                </p>
+
+
+                <button
+                    onclick="showMustRemember()">
+
+                    Open →
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div id="revisionContent"
+             class="revision-content">
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MCQ QUIZ
+    ====================================================== -->
+
+    <section id="quiz"
+             class="section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                PRACTICE TEST
+            </p>
+
+
+            <h2>
+                📝 MCQ Practice
+            </h2>
+
+
+            <span>
+
+                Test your preparation with 200+
+                technical and aptitude questions.
+
+            </span>
+
+
+        </div>
+
+
+
+        <div id="quizContainer"
+             class="quiz-container">
+
+
+            <div class="quiz-start">
+
+
+                <div class="quiz-start-icon">
+                    🧠
+                </div>
+
+
+                <h3>
+                    Ready for the Test?
+                </h3>
+
+
+                <p>
+
+                    Select a subject and practice
+                    multiple-choice questions.
+
+                </p>
+
+
+
+                <div class="quiz-settings">
+
+
+                    <div class="quiz-setting">
+
+
+                        <label for="quizSubject">
+
+                            Select Subject
+
+                        </label>
+
+
+                        <select id="quizSubject">
+
+
+                            <option value="All">
+                                All Subjects
+                            </option>
+
+
+                            <option value="Electrical">
+                                Electrical & Network Theory
+                            </option>
+
+
+                            <option value="Analog">
+                                Analog Electronics
+                            </option>
+
+
+                            <option value="Digital">
+                                Digital Electronics
+                            </option>
+
+
+                            <option value="Microcontrollers">
+                                Microprocessors & Microcontrollers
+                            </option>
+
+
+                            <option value="Embedded C">
+                                C / Embedded C
+                            </option>
+
+
+                            <option value="Control Systems">
+                                Control Systems
+                            </option>
+
+
+                            <option value="Power Electronics">
+                                Power Electronics
+                            </option>
+
+
+                            <option value="Instrumentation">
+                                Sensors & Instrumentation
+                            </option>
+
+
+                            <option value="Communication">
+                                Signals & Communication
+                            </option>
+
+
+                            <option value="Aptitude">
+                                Aptitude & Reasoning
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+
+                    <div class="quiz-setting">
+
+
+                        <label for="quizCount">
+
+                            Number of Questions
+
+                        </label>
+
+
+                        <select id="quizCount">
+
+
+                            <option value="10">
+                                10 Questions
+                            </option>
+
+
+                            <option value="20">
+                                20 Questions
+                            </option>
+
+
+                            <option value="30">
+                                30 Questions
+                            </option>
+
+
+                            <option value="50">
+                                50 Questions
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <button
+                    class="quiz-start-button"
+                    onclick="startQuiz()">
+
+                    🚀 Start Quiz
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         IMPORTANT RESOURCES
+    ====================================================== -->
+
+    <section id="resources"
+             class="section">
+
+
+        <div class="section-heading">
+
+
+            <p>
+                EXTRA PREPARATION
+            </p>
+
+
+            <h2>
+                🚆 Important Resources
+            </h2>
+
+
+            <span>
+
+                Additional revision material
+
+            </span>
+
+
+        </div>
+
+
+
+        <div class="resource-grid">
+
+
+
+            <!-- =================================================
+                 MCQs
+            ================================================== -->
+
+            <div class="resource-card">
+
+
+                <div class="resource-icon">
+                    📝
+                </div>
+
+
+                <h3>
+                    200+ MCQs
+                </h3>
+
+
+                <p>
+
+                    Practice questions covering
+                    all important subjects.
+
+                </p>
+
+
+                <button
+                    onclick="openQuizSection()">
+
+                    Practice →
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 RAILWAY ELECTRONICS
+            ================================================== -->
+
+            <div class="resource-card">
+
+
+                <div class="resource-icon">
+                    🚆
+                </div>
+
+
+                <h3>
+                    Railway Electronics
+                </h3>
+
+
+                <p>
+
+                    Traction, TCMS, signalling,
+                    braking and railway systems.
+
+                </p>
+
+
+                <button
+                    onclick="openRailwaySection()">
+
+                    Learn →
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 EV BASICS
+            ================================================== -->
+
+            <div class="resource-card">
+
+
+                <div class="resource-icon">
+                    🔋
+                </div>
+
+
+                <h3>
+                    EV Basics
+                </h3>
+
+
+                <p>
+
+                    Battery, BMS, inverter,
+                    motors and regenerative braking.
+
+                </p>
+
+
+                <button
+                    onclick="openEVSection()">
+
+                    Learn →
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FINAL REVISION
+    ====================================================== -->
+
+    <section class="final-revision">
+
+
+        <div>
+
+
+            <p>
+                BEFORE THE EXAM
+            </p>
+
+
+            <h2>
+                🔥 Final Revision
+            </h2>
+
+
+            <span>
+
+                Revise the most important concepts,
+                formulas and facts in one place.
+
+            </span>
+
+
+        </div>
+
+
+        <button
+            onclick="showMustRemember()">
+
+            Start Final Revision →
+
+        </button>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+
+        <h3>
+
+            🚆 Medha Servo GET Preparation
+
+        </h3>
+
+
+        <p>
+
+            Study • Practice • Revise • Prepare
+
+        </p>
+
+
+        <p class="copyright">
+
+            Personal exam preparation website
+
+        </p>
+
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT FILES
+    ====================================================== -->
+
+    <!-- Study Material -->
+
+    <script src="data/basics.js"></script>
+
+
+    <!-- MCQ Question Bank -->
+
+    <script src="data/mcqs.js"></script>
+
+    <script src="data/railway.js"></script>
+    <script src="data/ev.js"></script>
+    <script src="data/railway-mcqs.js"></script>
+    <script src="data/ev-mcqs.js"></script>
+
+
+    <!-- Main JavaScript -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

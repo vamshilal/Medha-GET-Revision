@@ -1,0 +1,3058 @@
+/* =========================================================
+   MEDHA SERVO GET REVISION WEBSITE
+   STYLE.CSS
+   STAGE 9 - UPDATED RESPONSIVE VERSION
+========================================================= */
+
+
+/* =========================================================
+   GLOBAL RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f5f7fb;
+
+    color: #1d2433;
+
+    line-height: 1.5;
+
+    overflow-x: hidden;
+}
+
+
+button,
+select,
+input {
+    font-family: inherit;
+}
+
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+
+    min-height: 70px;
+
+    background: #111827;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    box-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.logo {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+
+}
+
+
+.header nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+}
+
+
+.header nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    transition: 0.2s;
+
+}
+
+
+.header nav a:hover {
+
+    color: #ffca28;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    min-height: 500px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #1e3a5f
+        );
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 70px 20px;
+
+}
+
+
+.hero-content {
+
+    max-width: 800px;
+
+    width: 100%;
+
+}
+
+
+.tag {
+
+    color: #ffca28;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 55px;
+
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+
+}
+
+
+.hero h1 span {
+
+    display: block;
+
+    color: #ffca28;
+
+}
+
+
+.hero-text {
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    color: #d7deea;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* =========================================================
+   GENERAL BUTTON
+========================================================= */
+
+button {
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease;
+
+}
+
+
+.hero button,
+.final-revision button {
+
+    background: #ffca28;
+
+    color: #111827;
+
+    padding: 15px 28px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+.hero button:hover,
+.final-revision button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+
+    outline:
+        3px solid rgba(255, 202, 40, 0.8);
+
+    outline-offset: 3px;
+
+}
+
+
+/* =========================================================
+   QUICK STATS
+========================================================= */
+
+.stats {
+
+    max-width: 1000px;
+
+    margin: -45px auto 50px;
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+
+    padding: 0 20px;
+
+}
+
+
+.stat-card {
+
+    background: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.2s;
+
+}
+
+
+.stat-card:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+.stat-card h2 {
+
+    color: #e94560;
+
+    font-size: 30px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.stat-card p {
+
+    color: #666;
+
+}
+
+
+/* =========================================================
+   GENERAL SECTION
+========================================================= */
+
+.section {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 70px 25px;
+
+}
+
+
+.section-heading {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+
+.section-heading p {
+
+    color: #e94560;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.section-heading h2 {
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.section-heading span {
+
+    color: #666;
+
+}
+
+
+/* =========================================================
+   SUBJECTS
+========================================================= */
+
+.subject-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+
+}
+
+
+.subject-card {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+.subject-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    width: 4px;
+
+    height: 100%;
+
+    background: #ffca28;
+
+    transform: scaleY(0);
+
+    transition: 0.2s;
+
+}
+
+
+.subject-card:hover::before {
+
+    transform: scaleY(1);
+
+}
+
+
+.subject-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.1);
+
+    border-color: #ffca28;
+
+}
+
+
+.subject-card:focus-visible {
+
+    outline:
+        3px solid #ffca28;
+
+    outline-offset: 3px;
+
+}
+
+
+.subject-icon {
+
+    font-size: 35px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.subject-card h3 {
+
+    margin-bottom: 10px;
+
+    font-size: 19px;
+
+}
+
+
+.subject-card p {
+
+    color: #6b7280;
+
+    line-height: 1.5;
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+
+}
+
+
+.card-button {
+
+    display: inline-block;
+
+    color: #e94560;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================================
+   STUDY MATERIAL SECTION
+========================================================= */
+
+.study-section {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 70px 25px;
+
+}
+
+
+.topic-container {
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+
+/* =========================================================
+   EMPTY STUDY
+========================================================= */
+
+.empty-study {
+
+    background: white;
+
+    padding: 60px 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.06);
+
+}
+
+
+.empty-icon {
+
+    font-size: 50px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.empty-study h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.empty-study p {
+
+    color: #666;
+
+    margin-bottom: 18px;
+
+}
+
+
+/* =========================================================
+   TOPIC CARDS
+========================================================= */
+
+.topic-card {
+
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px 25px;
+
+    margin-bottom: 12px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.topic-card:hover {
+
+    transform: translateX(5px);
+
+    border-color: #ffca28;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.topic-card:focus-visible {
+
+    outline:
+        3px solid #ffca28;
+
+    outline-offset: 3px;
+
+}
+
+
+.topic-number {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #e94560;
+
+    min-width: 30px;
+
+}
+
+
+.topic-icon {
+
+    font-size: 30px;
+
+    flex-shrink: 0;
+
+}
+
+
+.topic-info {
+
+    flex: 1;
+
+    min-width: 0;
+
+}
+
+
+.topic-info h3 {
+
+    margin-bottom: 5px;
+
+    font-size: 18px;
+
+}
+
+
+.topic-info p {
+
+    color: #777;
+
+    font-size: 13px;
+
+}
+
+
+.topic-arrow {
+
+    font-size: 24px;
+
+    color: #999;
+
+    transition: 0.2s;
+
+    flex-shrink: 0;
+
+}
+
+
+.topic-card:hover .topic-arrow {
+
+    color: #e94560;
+
+    transform: translateX(5px);
+
+}
+
+
+/* =========================================================
+   INDIVIDUAL LESSON
+========================================================= */
+
+.topic-content {
+
+    max-width: 850px;
+
+    margin: auto;
+
+}
+
+
+.back-button {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.back-button:hover {
+
+    background: #e94560;
+
+    transform: translateY(-1px);
+
+}
+
+
+.lesson {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.07);
+
+    line-height: 1.7;
+
+    overflow-wrap: break-word;
+
+}
+
+
+.lesson h1,
+.lesson h2,
+.lesson h3,
+.lesson h4 {
+
+    color: #111827;
+
+}
+
+
+.lesson h2 {
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.lesson h3 {
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.lesson h4 {
+
+    margin-top: 20px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.lesson p {
+
+    color: #555;
+
+    margin-bottom: 15px;
+
+}
+
+
+.lesson ul {
+
+    margin-left: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.lesson ol {
+
+    margin-left: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.lesson li {
+
+    margin-bottom: 7px;
+
+}
+
+
+.lesson table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+
+    display: block;
+
+    overflow-x: auto;
+
+}
+
+
+.lesson th,
+.lesson td {
+
+    border: 1px solid #e5e7eb;
+
+    padding: 10px 12px;
+
+    text-align: left;
+
+    white-space: nowrap;
+
+}
+
+
+.lesson th {
+
+    background: #f1f5f9;
+
+}
+
+
+/* =========================================================
+   FORMULA BOX
+========================================================= */
+
+.formula {
+
+    background: #f1f5f9;
+
+    border-left: 5px solid #ffca28;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    border-radius: 8px;
+
+    color: #111827;
+
+    overflow-x: auto;
+
+}
+
+
+/* =========================================================
+   GET TIP
+========================================================= */
+
+.tip {
+
+    background: #fff8db;
+
+    border: 1px solid #ffe082;
+
+    padding: 18px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    margin-top: 25px;
+
+    color: #5f4b00;
+
+}
+
+
+/* =========================================================
+   REVISION CARDS
+========================================================= */
+
+.revision-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.revision-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.2s;
+
+}
+
+
+.revision-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.revision-icon {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.revision-card h3 {
+
+    margin-bottom: 12px;
+
+}
+
+
+.revision-card p {
+
+    color: #666;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+
+.revision-card button {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+}
+
+
+.revision-card button:hover {
+
+    background: #e94560;
+
+    transform: translateY(-1px);
+
+}
+
+
+/* =========================================================
+   REVISION CONTENT
+========================================================= */
+
+.revision-content {
+
+    max-width: 900px;
+
+    margin: 30px auto 0;
+
+}
+
+
+.revision-panel {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.06);
+
+}
+
+
+.revision-panel h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.revision-panel h4 {
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+    color: #e94560;
+
+}
+
+
+.revision-panel p {
+
+    color: #555;
+
+    margin-bottom: 15px;
+
+}
+
+
+.revision-panel ul,
+.revision-panel ol {
+
+    padding-left: 25px;
+
+    line-height: 1.9;
+
+}
+
+
+.revision-panel li {
+
+    margin-bottom: 5px;
+
+}
+
+
+/* =========================================================
+   REVISION GROUP
+========================================================= */
+
+.revision-group {
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 10px;
+
+    padding: 18px;
+
+    margin-bottom: 18px;
+
+}
+
+
+.revision-group h4 {
+
+    margin-top: 0;
+
+}
+
+
+/* =========================================================
+   RESOURCES
+========================================================= */
+
+.resource-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.resource-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.04);
+
+    transition: 0.2s;
+
+}
+
+
+.resource-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.resource-icon {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.resource-card h3 {
+
+    margin-bottom: 12px;
+
+}
+
+
+.resource-card p {
+
+    color: #666;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+
+.resource-card button {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+}
+
+
+.resource-card button:hover {
+
+    background: #e94560;
+
+    transform: translateY(-1px);
+
+}
+
+
+/* =========================================================
+   RAILWAY SECTION
+========================================================= */
+
+#railway {
+
+    scroll-margin-top: 80px;
+
+}
+
+
+#railway .section-heading p {
+
+    color: #2563eb;
+
+}
+
+
+#railway .topic-card:hover {
+
+    border-color: #2563eb;
+
+    box-shadow:
+        0 5px 18px rgba(37, 99, 235, 0.12);
+
+}
+
+
+#railway .topic-arrow {
+
+    color: #2563eb;
+
+}
+
+
+/* =========================================================
+   EV SECTION
+========================================================= */
+
+#ev {
+
+    scroll-margin-top: 80px;
+
+}
+
+
+#ev .section-heading p {
+
+    color: #16a34a;
+
+}
+
+
+#ev .topic-card:hover {
+
+    border-color: #16a34a;
+
+    box-shadow:
+        0 5px 18px rgba(22, 163, 74, 0.12);
+
+}
+
+
+#ev .topic-arrow {
+
+    color: #16a34a;
+
+}
+
+
+/* =========================================================
+   RAILWAY / EV TOPIC CARDS
+========================================================= */
+
+.railway-topic-card,
+.ev-topic-card {
+
+    background: white;
+
+    padding: 22px 25px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    margin-bottom: 12px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.railway-topic-card:hover {
+
+    border-color: #2563eb;
+
+    transform: translateX(5px);
+
+    box-shadow:
+        0 5px 18px rgba(37, 99, 235, 0.12);
+
+}
+
+
+.ev-topic-card:hover {
+
+    border-color: #16a34a;
+
+    transform: translateX(5px);
+
+    box-shadow:
+        0 5px 18px rgba(22, 163, 74, 0.12);
+
+}
+
+
+.railway-topic-card h3,
+.ev-topic-card h3 {
+
+    margin-bottom: 6px;
+
+}
+
+
+.railway-topic-card p,
+.ev-topic-card p {
+
+    color: #666;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================================
+   MCQ QUIZ SECTION
+========================================================= */
+
+.quiz-container {
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+
+/* =========================================================
+   QUIZ START SCREEN
+========================================================= */
+
+.quiz-start {
+
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.07);
+
+    text-align: center;
+
+}
+
+
+.quiz-start-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.quiz-start h3 {
+
+    font-size: 28px;
+
+    margin-bottom: 10px;
+
+    color: #111827;
+
+}
+
+
+.quiz-start > p {
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* =========================================================
+   QUIZ SETTINGS
+========================================================= */
+
+.quiz-settings {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+
+    text-align: left;
+
+}
+
+
+.quiz-setting {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+
+.quiz-setting label {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #374151;
+
+}
+
+
+.quiz-setting select {
+
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    background: white;
+
+    color: #1d2433;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+}
+
+
+.quiz-setting select:focus {
+
+    outline:
+        3px solid rgba(255, 202, 40, 0.35);
+
+    border-color: #ffca28;
+
+}
+
+
+/* =========================================================
+   QUIZ START BUTTON
+========================================================= */
+
+.quiz-start-button {
+
+    background: #e94560;
+
+    color: white;
+
+    padding: 14px 30px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-start-button:hover {
+
+    background: #c92f49;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(233, 69, 96, 0.25);
+
+}
+
+
+/* =========================================================
+   ACTIVE QUIZ
+========================================================= */
+
+.quiz-box {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.07);
+
+}
+
+
+/* =========================================================
+   QUIZ TOP BAR
+========================================================= */
+
+.quiz-top {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.quiz-subject {
+
+    color: #e94560;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-counter {
+
+    color: #666;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================================
+   QUIZ PROGRESS
+========================================================= */
+
+.quiz-progress {
+
+    width: 100%;
+
+    height: 8px;
+
+    background: #e5e7eb;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    margin-bottom: 30px;
+
+}
+
+
+.quiz-progress-bar {
+
+    height: 100%;
+
+    width: 0%;
+
+    background: #ffca28;
+
+    border-radius: 20px;
+
+    transition: width 0.3s ease;
+
+}
+
+
+/* =========================================================
+   QUIZ QUESTION
+========================================================= */
+
+.quiz-question {
+
+    font-size: 23px;
+
+    font-weight: bold;
+
+    line-height: 1.5;
+
+    color: #111827;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =========================================================
+   QUIZ OPTIONS
+========================================================= */
+
+.quiz-options {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+
+.quiz-option {
+
+    width: 100%;
+
+    background: #f8fafc;
+
+    color: #1d2433;
+
+    border: 2px solid #e5e7eb;
+
+    border-radius: 10px;
+
+    padding: 15px 18px;
+
+    text-align: left;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+}
+
+
+.quiz-option:hover:not(:disabled) {
+
+    border-color: #ffca28;
+
+    background: #fffdf0;
+
+    transform: translateX(3px);
+
+}
+
+
+.quiz-option:disabled {
+
+    cursor: default;
+
+}
+
+
+/* =========================================================
+   CORRECT ANSWER
+========================================================= */
+
+.quiz-option.correct {
+
+    background: #ecfdf5;
+
+    border-color: #22c55e;
+
+    color: #166534;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================================
+   WRONG ANSWER
+========================================================= */
+
+.quiz-option.wrong {
+
+    background: #fef2f2;
+
+    border-color: #ef4444;
+
+    color: #991b1b;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================================
+   ANSWER FEEDBACK
+========================================================= */
+
+.quiz-feedback {
+
+    margin-top: 22px;
+
+    padding: 18px;
+
+    border-radius: 10px;
+
+    background: #f1f5f9;
+
+    border-left: 5px solid #ffca28;
+
+}
+
+
+.quiz-feedback h4 {
+
+    margin-bottom: 7px;
+
+    color: #111827;
+
+}
+
+
+.quiz-feedback p {
+
+    color: #555;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================================
+   QUIZ ACTIONS
+========================================================= */
+
+.quiz-actions {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 12px;
+
+    margin-top: 25px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.quiz-next-button {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-next-button:hover {
+
+    background: #e94560;
+
+    transform: translateY(-2px);
+
+}
+
+
+.quiz-exit-button {
+
+    background: #e5e7eb;
+
+    color: #374151;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-exit-button:hover {
+
+    background: #d1d5db;
+
+}
+
+
+/* =========================================================
+   QUIZ RESULT
+========================================================= */
+
+.quiz-result {
+
+    background: white;
+
+    padding: 50px 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.07);
+
+    text-align: center;
+
+}
+
+
+.quiz-result-icon {
+
+    font-size: 65px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.quiz-result h3 {
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+
+    color: #111827;
+
+}
+
+
+.quiz-result p {
+
+    color: #666;
+
+    margin-bottom: 10px;
+
+}
+
+
+.quiz-score {
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    color: #e94560;
+
+    margin: 20px 0;
+
+}
+
+
+.quiz-result-message {
+
+    font-size: 17px;
+
+    color: #374151;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =========================================================
+   QUIZ RESULT BUTTONS
+========================================================= */
+
+.quiz-result-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.quiz-restart-button {
+
+    background: #e94560;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-restart-button:hover {
+
+    background: #c92f49;
+
+}
+
+
+.quiz-home-button {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+}
+
+
+.quiz-home-button:hover {
+
+    background: #374151;
+
+}
+
+
+/* =========================================================
+   FINAL REVISION
+========================================================= */
+
+.final-revision {
+
+    max-width: 1100px;
+
+    margin: 30px auto 70px;
+
+    padding: 45px;
+
+    border-radius: 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #253b5c
+        );
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+}
+
+
+.final-revision p {
+
+    color: #ffca28;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.final-revision h2 {
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.final-revision span {
+
+    color: #d7deea;
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+
+    background: #111827;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+}
+
+
+footer h3 {
+
+    margin-bottom: 10px;
+
+}
+
+
+footer p {
+
+    color: #b9c0cc;
+
+    margin-bottom: 8px;
+
+}
+
+
+footer .copyright {
+
+    font-size: 13px;
+
+    margin-top: 20px;
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+
+    .header {
+
+        padding: 0 25px;
+
+    }
+
+
+    .header nav {
+
+        gap: 15px;
+
+    }
+
+
+    .header nav a {
+
+        font-size: 14px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 45px;
+
+    }
+
+
+    .stats {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .subject-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .revision-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .resource-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .quiz-settings {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .quiz-box {
+
+        padding: 30px;
+
+    }
+
+
+    .final-revision {
+
+        margin-left: 20px;
+
+        margin-right: 20px;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+
+    /* -----------------------------------------------------
+       HEADER
+    ----------------------------------------------------- */
+
+    .header {
+
+        min-height: 60px;
+
+        height: auto;
+
+        padding: 13px 15px;
+
+    }
+
+
+    .logo {
+
+        font-size: 18px;
+
+    }
+
+
+    .header nav {
+
+        display: none;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       HERO
+    ----------------------------------------------------- */
+
+    .hero {
+
+        min-height: 450px;
+
+        padding: 50px 20px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 34px;
+
+    }
+
+
+    .hero-text {
+
+        font-size: 16px;
+
+    }
+
+
+    .tag {
+
+        font-size: 11px;
+
+        letter-spacing: 1.5px;
+
+    }
+
+
+    .hero button {
+
+        width: 100%;
+
+        max-width: 300px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       STATS
+    ----------------------------------------------------- */
+
+    .stats {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 10px;
+
+        padding: 0 10px;
+
+        margin-top: -30px;
+
+    }
+
+
+    .stat-card {
+
+        padding: 18px 10px;
+
+    }
+
+
+    .stat-card h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    .stat-card p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       SECTIONS
+    ----------------------------------------------------- */
+
+    .section,
+    .study-section {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .section-heading {
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .section-heading span {
+
+        font-size: 14px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       SUBJECTS
+    ----------------------------------------------------- */
+
+    .subject-card {
+
+        padding: 20px;
+
+    }
+
+
+    .subject-card h3 {
+
+        font-size: 17px;
+
+    }
+
+
+    .subject-card p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       TOPICS
+    ----------------------------------------------------- */
+
+    .topic-card {
+
+        padding: 16px;
+
+        gap: 12px;
+
+        margin-bottom: 10px;
+
+    }
+
+
+    .topic-number {
+
+        display: none;
+
+    }
+
+
+    .topic-icon {
+
+        font-size: 25px;
+
+    }
+
+
+    .topic-info h3 {
+
+        font-size: 16px;
+
+    }
+
+
+    .topic-info p {
+
+        font-size: 12px;
+
+    }
+
+
+    .topic-arrow {
+
+        font-size: 20px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       LESSON
+    ----------------------------------------------------- */
+
+    .topic-content {
+
+        width: 100%;
+
+    }
+
+
+    .lesson {
+
+        padding: 25px 20px;
+
+        border-radius: 12px;
+
+    }
+
+
+    .lesson h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    .lesson h3 {
+
+        font-size: 18px;
+
+    }
+
+
+    .lesson p {
+
+        font-size: 14px;
+
+    }
+
+
+    .lesson li {
+
+        font-size: 14px;
+
+    }
+
+
+    .lesson ul,
+    .lesson ol {
+
+        margin-left: 18px;
+
+    }
+
+
+    .formula {
+
+        font-size: 18px;
+
+        padding: 16px 12px;
+
+    }
+
+
+    .tip {
+
+        font-size: 14px;
+
+        padding: 15px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       RAILWAY / EV
+    ----------------------------------------------------- */
+
+    .railway-topic-card,
+    .ev-topic-card {
+
+        padding: 18px;
+
+    }
+
+
+    .railway-topic-card h3,
+    .ev-topic-card h3 {
+
+        font-size: 16px;
+
+    }
+
+
+    .railway-topic-card p,
+    .ev-topic-card p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       REVISION
+    ----------------------------------------------------- */
+
+    .revision-content {
+
+        width: 100%;
+
+    }
+
+
+    .revision-panel {
+
+        padding: 22px 18px;
+
+        border-radius: 12px;
+
+    }
+
+
+    .revision-panel h3 {
+
+        font-size: 21px;
+
+    }
+
+
+    .revision-panel h4 {
+
+        font-size: 16px;
+
+    }
+
+
+    .revision-panel li {
+
+        font-size: 14px;
+
+    }
+
+
+    .revision-group {
+
+        padding: 15px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       RESOURCES
+    ----------------------------------------------------- */
+
+    .resource-card {
+
+        padding: 25px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       QUIZ START
+    ----------------------------------------------------- */
+
+    .quiz-start {
+
+        padding: 30px 20px;
+
+    }
+
+
+    .quiz-start-icon {
+
+        font-size: 45px;
+
+    }
+
+
+    .quiz-start h3 {
+
+        font-size: 24px;
+
+    }
+
+
+    .quiz-settings {
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+
+    }
+
+
+    .quiz-setting select {
+
+        padding: 11px;
+
+        font-size: 13px;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       ACTIVE QUIZ
+    ----------------------------------------------------- */
+
+    .quiz-box {
+
+        padding: 22px 18px;
+
+        border-radius: 12px;
+
+    }
+
+
+    .quiz-top {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 5px;
+
+    }
+
+
+    .quiz-subject {
+
+        font-size: 13px;
+
+    }
+
+
+    .quiz-counter {
+
+        font-size: 13px;
+
+    }
+
+
+    .quiz-question {
+
+        font-size: 19px;
+
+        line-height: 1.5;
+
+    }
+
+
+    .quiz-option {
+
+        padding: 13px 14px;
+
+        font-size: 14px;
+
+    }
+
+
+    .quiz-feedback {
+
+        padding: 15px;
+
+        font-size: 14px;
+
+    }
+
+
+    .quiz-actions {
+
+        flex-direction: column;
+
+        justify-content: stretch;
+
+    }
+
+
+    .quiz-next-button,
+    .quiz-exit-button {
+
+        width: 100%;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       QUIZ RESULT
+    ----------------------------------------------------- */
+
+    .quiz-result {
+
+        padding: 35px 20px;
+
+        border-radius: 12px;
+
+    }
+
+
+    .quiz-result-icon {
+
+        font-size: 50px;
+
+    }
+
+
+    .quiz-result h3 {
+
+        font-size: 25px;
+
+    }
+
+
+    .quiz-score {
+
+        font-size: 42px;
+
+    }
+
+
+    .quiz-result-message {
+
+        font-size: 15px;
+
+    }
+
+
+    .quiz-result-buttons {
+
+        flex-direction: column;
+
+    }
+
+
+    .quiz-restart-button,
+    .quiz-home-button {
+
+        width: 100%;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       FINAL REVISION
+    ----------------------------------------------------- */
+
+    .final-revision {
+
+        margin: 20px;
+
+        padding: 30px 20px;
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .final-revision h2 {
+
+        font-size: 27px;
+
+    }
+
+
+    .final-revision span {
+
+        font-size: 14px;
+
+    }
+
+
+    .final-revision button {
+
+        width: 100%;
+
+    }
+
+
+
+    /* -----------------------------------------------------
+       FOOTER
+    ----------------------------------------------------- */
+
+    footer {
+
+        padding: 30px 15px;
+
+    }
+
+
+    footer h3 {
+
+        font-size: 18px;
+
+    }
+
+
+    footer p {
+
+        font-size: 13px;
+
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+
+    .hero h1 {
+
+        font-size: 29px;
+
+    }
+
+
+    .hero-text {
+
+        font-size: 14px;
+
+    }
+
+
+    .stats {
+
+        grid-template-columns:
+            1fr 1fr;
+
+    }
+
+
+    .stat-card {
+
+        padding: 15px 8px;
+
+    }
+
+
+    .stat-card h2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .stat-card p {
+
+        font-size: 12px;
+
+    }
+
+
+    .subject-icon {
+
+        font-size: 30px;
+
+    }
+
+
+    .topic-card {
+
+        gap: 8px;
+
+        padding: 14px;
+
+    }
+
+
+    .topic-icon {
+
+        font-size: 22px;
+
+    }
+
+
+    .topic-info h3 {
+
+        font-size: 15px;
+
+    }
+
+
+    .topic-info p {
+
+        font-size: 11px;
+
+    }
+
+
+    .quiz-question {
+
+        font-size: 18px;
+
+    }
+
+
+    .quiz-option {
+
+        font-size: 13px;
+
+        padding: 12px;
+
+    }
+
+
+    .formula {
+
+        font-size: 16px;
+
+    }
+
+
+    .final-revision {
+
+        margin-left: 12px;
+
+        margin-right: 12px;
+
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL DEVICES
+========================================================= */
+
+@media (max-width: 320px) {
+
+
+    .hero {
+
+        padding-left: 14px;
+
+        padding-right: 14px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 26px;
+
+    }
+
+
+    .stats {
+
+        gap: 7px;
+
+        padding: 0 7px;
+
+    }
+
+
+    .stat-card h2 {
+
+        font-size: 20px;
+
+    }
+
+
+    .stat-card p {
+
+        font-size: 11px;
+
+    }
+
+
+    .section,
+    .study-section {
+
+        padding-left: 10px;
+
+        padding-right: 10px;
+
+    }
+
+
+    .subject-card {
+
+        padding: 17px;
+
+    }
+
+
+    .topic-card {
+
+        padding: 12px;
+
+    }
+
+
+    .topic-arrow {
+
+        font-size: 17px;
+
+    }
+
+
+    .lesson {
+
+        padding: 20px 14px;
+
+    }
+
+
+    .revision-panel {
+
+        padding: 18px 13px;
+
+    }
+
+
+    .quiz-start {
+
+        padding: 25px 14px;
+
+    }
+
+
+    .quiz-box {
+
+        padding: 18px 13px;
+
+    }
+
+
+    .quiz-result {
+
+        padding: 28px 14px;
+
+    }
+
+}
